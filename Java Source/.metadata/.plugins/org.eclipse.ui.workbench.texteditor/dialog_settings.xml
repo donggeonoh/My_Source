@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="/* 생성자를 추가하지 않으면 컴파일러가 자동으로 생성자 추가" key="selection"/>
+		<list key="findhistory">
+			<item value="/* 생성자를 추가하지 않으면 컴파일러가 자동으로 생성자 추가"/>
+		</list>
+	</section>
+</section>

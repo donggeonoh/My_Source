@@ -1,0 +1,9 @@
+package com.dku.dmaps.main;
+
+public class ProjectLauncher {
+	public static void main(String [] arsg) {
+	
+		MainBoard mainBoard = new MainBoard();
+		
+	}
+}

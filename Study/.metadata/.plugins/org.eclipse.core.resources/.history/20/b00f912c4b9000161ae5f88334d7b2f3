@@ -1,0 +1,11 @@
+package dmaps.study.mentoring3;
+
+public class User extends Unit{
+
+	public Unit(String name, int hp, int dp, int attack) {
+		this.setHp(hp);
+		this.setDefence(dp);
+		this.setPower(attack);
+	}
+	
+}

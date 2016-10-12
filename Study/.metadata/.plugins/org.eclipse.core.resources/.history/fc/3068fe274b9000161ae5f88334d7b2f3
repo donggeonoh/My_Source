@@ -1,0 +1,5 @@
+package dmaps.study.mentoring3;
+
+public class User extends Unit{
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="dmaps.study.mentoring.Test"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Calc"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="javax.net.ssl.SSLEngineResult.Status"/>
+<fullyQualifiedTypeName name="dmaps.study.mentoring2.StaticQuiz"/>
+<fullyQualifiedTypeName name="dmaps.study.mentoring2.Vehicle"/>
+<fullyQualifiedTypeName name="dmaps.study.mentoring2.Car"/>
+<fullyQualifiedTypeName name="dmaps.study.mentoring3.Monster"/>
+<fullyQualifiedTypeName name="dmaps.study.mentoring3.User"/>
+</qualifiedTypeNameHistroy>

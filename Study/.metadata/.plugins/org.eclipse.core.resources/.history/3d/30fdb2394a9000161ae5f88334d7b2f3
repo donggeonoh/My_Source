@@ -1,0 +1,9 @@
+package dmaps.study.mentoring3;
+
+public class Monster extends Unit{
+	
+	public Monster(String name, int hp, int ) {
+		
+	}
+	
+}
