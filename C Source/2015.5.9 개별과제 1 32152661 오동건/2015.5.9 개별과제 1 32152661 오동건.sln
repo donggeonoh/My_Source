@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2015.5.9 개별과제 1 32152661 오동건", "2015.5.9 개별과제 1 32152661 오동건\2015.5.9 개별과제 1 32152661 오동건.vcxproj", "{24C9E503-8699-4AE8-ADCA-9F7FF9A30F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C9E503-8699-4AE8-ADCA-9F7FF9A30F59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24C9E503-8699-4AE8-ADCA-9F7FF9A30F59}.Debug|Win32.Build.0 = Debug|Win32
+		{24C9E503-8699-4AE8-ADCA-9F7FF9A30F59}.Release|Win32.ActiveCfg = Release|Win32
+		{24C9E503-8699-4AE8-ADCA-9F7FF9A30F59}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
