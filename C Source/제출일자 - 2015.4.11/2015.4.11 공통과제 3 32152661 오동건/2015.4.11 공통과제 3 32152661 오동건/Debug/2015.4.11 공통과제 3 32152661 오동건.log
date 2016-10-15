@@ -1,0 +1,15 @@
+﻿Build started 2015-04-10 오후 11:11:01.
+     1>Project "C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "2015.4.11 공통과제 3 32152661 오동건.cpp"
+         2015.4.11 공통과제 3 32152661 오동건.cpp
+     1>c:\users\dong geon\documents\visual studio 2013\projects\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\Debug\2015.4.11 공통과제 3 32152661 오동건.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\Debug\2015.4.11 공통과제 3 32152661 오동건.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\Debug\2015.4.11 공통과제 3 32152661 오동건.lib" /MACHINE:X86 "Debug\2015.4.11 공통과제 3 32152661 오동건.obj"
+         2015.4.11 공통과제 3 32152661 오동건.vcxproj -> C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\Debug\2015.4.11 공통과제 3 32152661 오동건.exe
+     1>Done Building Project "C:\Users\dong geon\documents\visual studio 2013\Projects\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건\2015.4.11 공통과제 3 32152661 오동건.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81

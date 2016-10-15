@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidStudy.iml" filepath="$PROJECT_DIR$/AndroidStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/buttonapp/buttonapp.iml" filepath="$PROJECT_DIR$/buttonapp/buttonapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buttongame/buttongame.iml" filepath="$PROJECT_DIR$/buttongame/buttongame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customlistview/customlistview.iml" filepath="$PROJECT_DIR$/customlistview/customlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
     </modules>
   </component>
 </project>

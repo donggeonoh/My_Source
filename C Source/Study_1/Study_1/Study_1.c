@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char num[10];
+	char num[1000];
 	int i, j;
 
 	num[0] = 1;

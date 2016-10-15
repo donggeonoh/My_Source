@@ -1,1 +1,1 @@
-include ':app', ':buttonapp'
+include ':app', ':buttonapp', ':buttongame', ':listview', ':customlistview'
