@@ -5,4 +5,9 @@
 <fullyQualifiedTypeName name="com.dku.dmaps.view.MainBoard"/>
 <fullyQualifiedTypeName name="com.dku.dmaps.control.Controlor"/>
 <fullyQualifiedTypeName name="com.dku.dmaps.vo.Person"/>
+<fullyQualifiedTypeName name="com.study.ractangle.Ractangle"/>
+<fullyQualifiedTypeName name="com.study.fruitMarket.FruitManager"/>
+<fullyQualifiedTypeName name="com.study.fruitMarket.FruitMarketLauncher"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

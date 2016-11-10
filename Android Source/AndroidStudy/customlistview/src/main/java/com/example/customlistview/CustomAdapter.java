@@ -59,6 +59,7 @@ public class CustomAdapter extends BaseAdapter{
         text4.setText(itemlist.get(position).getText4());
 
         Button selectButton = (Button) convertView.findViewById(R.id.selectButton);
+
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

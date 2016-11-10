@@ -11,7 +11,7 @@
 	<hr>
 	
 	Every content no Print forward_action.jsp
-	<%!
+	<%
 		int a = 10;
 	%>
 	

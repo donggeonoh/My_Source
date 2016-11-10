@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3e1e246a-ca78-4f2c-a9c4-1713c9e99614" name="Default" comment="" />
+=======
     <list default="true" id="3e1e246a-ca78-4f2c-a9c4-1713c9e99614" name="Default" comment="">
 <<<<<<< HEAD
 =======
@@ -11,6 +14,7 @@
 >>>>>>> 0927bb0a609982cd0a41c072561b9129d9d6921a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/dmaps.js" afterPath="$PROJECT_DIR$/public/javascripts/dmaps.js" />
     </list>
+>>>>>>> 0346f3226e583c8e602f44f2538fee1a660d7cae
     <ignored path="tuesday.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,12 +66,17 @@
             <entry file="file://$PROJECT_DIR$/public/javascripts/dmaps.js">
               <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+                <state relative-caret-position="-532">
+                  <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+=======
+<<<<<<< HEAD
                 <state relative-caret-position="152">
                   <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
 =======
                 <state relative-caret-position="455">
                   <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
 >>>>>>> 0927bb0a609982cd0a41c072561b9129d9d6921a
+>>>>>>> 0346f3226e583c8e602f44f2538fee1a660d7cae
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -264,17 +273,25 @@
 =======
       <workItem from="1476181123431" duration="873000" />
       <workItem from="1476182085189" duration="64000" />
+<<<<<<< HEAD
+      <workItem from="1476182164182" duration="1218000" />
+=======
       <workItem from="1476182164182" duration="318000" />
 >>>>>>> 0927bb0a609982cd0a41c072561b9129d9d6921a
+>>>>>>> 0346f3226e583c8e602f44f2538fee1a660d7cae
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2155000" />
+=======
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2113000" />
 =======
     <option name="totallyTimeSpent" value="1255000" />
 >>>>>>> 0927bb0a609982cd0a41c072561b9129d9d6921a
+>>>>>>> 0346f3226e583c8e602f44f2538fee1a660d7cae
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1234" height="784" extended-state="6" />
@@ -386,12 +403,17 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/dmaps.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state relative-caret-position="-532">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+=======
+<<<<<<< HEAD
         <state relative-caret-position="152">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
 =======
         <state relative-caret-position="455">
           <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
 >>>>>>> 0927bb0a609982cd0a41c072561b9129d9d6921a
+>>>>>>> 0346f3226e583c8e602f44f2538fee1a660d7cae
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -44,6 +44,22 @@ Div.prototype.margin = function (px) {
     return this;
 };
 
+/**
+ *
+ * @author eunchong
+ * @date    16.10.11
+ * @returns {Div}
+ */
+Div.prototype.border = function (px) {
+    this.$.css('border', px+'px solid black');
+    return this;
+};
+
+Div.prototype.fontSize = function (px) {
+    this.$.css('font-size', px);
+    return this;
+};
+
 Div.prototype.marginTop = function (px) {
     this.$.css('margin-top', px);
     return this;

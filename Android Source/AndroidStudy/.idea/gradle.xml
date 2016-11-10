@@ -11,8 +11,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buttonapp" />
             <option value="$PROJECT_DIR$/buttongame" />
+            <option value="$PROJECT_DIR$/customdialog" />
             <option value="$PROJECT_DIR$/customlistview" />
             <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/listview_hw" />
+            <option value="$PROJECT_DIR$/thread" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,43 @@
+package com.study.ractangle;
+
+public class Ractangle {
+	
+	private int x1, y1;
+	private int x2, y2;
+	
+	public Ractangle(int x1, int y1, int x2, int y2) {
+		this.x1 = x1;
+		this.y1 = y1;
+		this.x2 = x2;
+		this.y2 = y2;
+	}
+	
+	public void inputDots(int x1, int y1, int x2, int y2) {
+		this.x1 = x1;
+		this.y1 = y1;
+		this.x2 = x2;
+		this.y2 = y2;
+	}
+	
+	public void distance() {
+		int width = getWidth();
+		int height = getHeight();
+		
+		System.out.println("가로 : " + width);
+		System.out.println("세로 : " + height);
+	}
+	
+	public void extent() {
+		int extent = getWidth() * getHeight();
+		
+		System.out.println("넓이 : " + extent);
+	}
+	
+	public int getWidth() {
+		return x2 - x1;
+	}
+	
+	public int getHeight() {
+		return y2 - y1;
+	}
+}

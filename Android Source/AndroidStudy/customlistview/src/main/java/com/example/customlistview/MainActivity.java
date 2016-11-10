@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.list);
-        list = new ArrayList<Item>();
         adapter = new CustomAdapter(getLayoutInflater(), list, this);
 
         list.add(new Item("김수현", "오동건", "고현규", "신은총"));
