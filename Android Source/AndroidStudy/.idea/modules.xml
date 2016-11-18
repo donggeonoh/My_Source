@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/customlistview/customlistview.iml" filepath="$PROJECT_DIR$/customlistview/customlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview_hw/listview_hw.iml" filepath="$PROJECT_DIR$/listview_hw/listview_hw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mygame/mygame.iml" filepath="$PROJECT_DIR$/mygame/mygame.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_hw/thread_hw.iml" filepath="$PROJECT_DIR$/thread_hw/thread_hw.iml" />
     </modules>
   </component>
 </project>

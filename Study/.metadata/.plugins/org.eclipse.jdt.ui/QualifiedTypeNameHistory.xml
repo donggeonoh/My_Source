@@ -12,4 +12,6 @@
 <fullyQualifiedTypeName name="dmaps.study.mentoring2.Car"/>
 <fullyQualifiedTypeName name="dmaps.study.mentoring3.Monster"/>
 <fullyQualifiedTypeName name="dmaps.study.mentoring3.User"/>
+<fullyQualifiedTypeName name="dmaps.study.interfaceExample.Flyable"/>
+<fullyQualifiedTypeName name="dmaps.study.interfaceExample.Cryable"/>
 </qualifiedTypeNameHistroy>

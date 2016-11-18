@@ -1,1 +1,2 @@
-console.log('this is test page');
+div().append().size('20%', '30%').bgColor('red');
+div().append().size('20%', '30%').bgColor('blue');

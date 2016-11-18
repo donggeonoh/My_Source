@@ -1,1 +1,1 @@
-include ':app', ':buttonapp', ':buttongame', ':listview', ':customlistview', ':listview_hw', ':listview_hw', ':customdialog', ':thread'
+include ':app', ':buttonapp', ':buttongame', ':listview', ':customlistview', ':listview_hw', ':listview_hw', ':customdialog', ':thread', ':thread_hw', ':mygame'

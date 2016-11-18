@@ -6,6 +6,5 @@ public class QuackQuack
 	@Override
 	public void quack() {
 		System.out.println("²Ð²Ð");
-		
 	}
 }

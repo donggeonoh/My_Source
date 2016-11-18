@@ -1,0 +1,5 @@
+package dmaps.study.interfaceExample;
+
+public class ModelDuck extends Duck {
+
+}
