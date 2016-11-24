@@ -1,0 +1,15 @@
+package dmaps.study.frame;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		JFrame jFrame = new JFrame();
+		JButton button = new JButton("»Æ¿Œ"); 
+		
+		jFrame.add(button);
+	}
+
+}

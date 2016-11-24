@@ -96,6 +96,7 @@ public class ButtonGame extends AppCompatActivity
 
             startActivity(rankIntent);
             finish();
+            return;
         }
 
         for(int i = 0; i < BTN_COUNT; i++) {

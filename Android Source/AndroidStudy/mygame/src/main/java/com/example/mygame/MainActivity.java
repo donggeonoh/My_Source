@@ -8,6 +8,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    int []rank = new int[10];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent rankIntent = new Intent(MainActivity.this, RankActivity.class);
+                rankIntent.putExtra("rank", rank);
+
                 startActivity(rankIntent);
             }
         });
