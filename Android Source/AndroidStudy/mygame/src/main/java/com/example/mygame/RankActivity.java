@@ -17,11 +17,6 @@ public class RankActivity extends AppCompatActivity {
     ListView rankList;
     RankAdapter rankAdapter;
 
-    public RankActivity() {
-        rankIntent = getIntent();
-        rank = rankIntent.getExtras().getIntArray("rank");
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

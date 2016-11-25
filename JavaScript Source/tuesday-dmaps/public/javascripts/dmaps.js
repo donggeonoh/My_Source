@@ -306,7 +306,7 @@ Div.prototype.minWidth = function(px) {
     return this;
 };
 
-Div.prototype.minHeight = function() {
+Div.prototype.minHeight = function(px) {
     if (px === undefined) {
         return this.$.css('min-height');
     }
@@ -347,5 +347,15 @@ Div.prototype.hover = function(fn1, fn2) {
 
 Div.prototype.editable = function() {
     this.$.attr('contenteditable', 'true');
+    return this;
+};
+
+Div.prototype.pointer = function () {
+    this.$.css('cursor', 'pointer');
+    return this;
+};
+
+Div.prototype.disDraggable = function () {
+    this.$.css('user-select', 'none');
     return this;
 };

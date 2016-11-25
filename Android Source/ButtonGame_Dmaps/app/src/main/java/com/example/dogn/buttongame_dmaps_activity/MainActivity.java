@@ -8,9 +8,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    RankActivity rankActivity;
-    Intent rankIntent;
-
     Button startButtonGameButton;
     Button rankButton;
     Button exitButton;
@@ -20,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rankActivity = new RankActivity();
-        rankIntent = new Intent(MainActivity.this, rankActivity.getClass());
+        startActivity(new Intent(this, SplashActivity.class));
 
         startButtonGameButton = (Button) findViewById(R.id.startButtonGameButton);
         rankButton = (Button) findViewById(R.id.rankButton);
@@ -31,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent gameIntent = new Intent(MainActivity.this, GameActivity.class);
-                gameIntent.putExtras(rankIntent);
                 startActivity(gameIntent);
             }
         });
@@ -39,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         rankButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent rankIntent = new Intent(MainActivity.this, RankActivity.class);
                 startActivity(rankIntent);
             }
         });
