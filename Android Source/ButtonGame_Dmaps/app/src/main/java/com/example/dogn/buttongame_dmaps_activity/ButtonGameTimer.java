@@ -40,7 +40,7 @@ public class ButtonGameTimer extends Thread {
 
                 progressBar.setProgress(count += 20);
 
-                if(count == 100) {
+                if(count > 100) {
                     handler.sendMessage(handler.obtainMessage());
                 }
 

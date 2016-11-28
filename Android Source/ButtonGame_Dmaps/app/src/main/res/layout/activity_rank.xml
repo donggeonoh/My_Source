@@ -9,14 +9,30 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:textSize="30sp"
-        android:text="나의 최고 점수는?"/>
+        android:textSize="30dp"
+        android:text="나의 최고 점수는?"
+        android:id="@+id/rankText"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="100dp"
-        android:id="@+id/rankText"/>
+        android:id="@+id/rank"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:text="Score"
+        android:id="@+id/scoreText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/score"/>
 </LinearLayout>

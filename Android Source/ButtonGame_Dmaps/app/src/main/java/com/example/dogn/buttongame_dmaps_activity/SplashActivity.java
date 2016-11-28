@@ -4,13 +4,21 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
+import android.view.MotionEvent;
+import android.view.View;
 
 /**
  * Created by DOGN on 2016-11-25.
  */
 
-public class SplashActivity extends AppCompatActivity{
+public class SplashActivity extends AppCompatActivity {
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        finish();
+        return super.onTouchEvent(event);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,4 +32,5 @@ public class SplashActivity extends AppCompatActivity{
         };
         handler.sendEmptyMessageDelayed(0, 3000);
     }
+
 }

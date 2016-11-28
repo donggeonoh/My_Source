@@ -37,6 +37,7 @@ public class GameActivity extends AppCompatActivity
     private int gameCount = 3;
     private int btnCount = 0;
     private int score = 0;
+    private int startBtn = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,12 +60,49 @@ public class GameActivity extends AppCompatActivity
         countLeftText.setText(gameCount + "");
 
         btnGrid = (GridLayout) findViewById(R.id.btnGrid);
-
         trd = new ButtonGameTimer(timer, handler);
 
         setScore();
         setButtons();
+
         trd.start();
+    }
+
+    public void onClick(View v) {
+
+        trd.initialize();
+
+        if(startBtn == 0) {
+            for (int i = 0; i < BTN_COUNT; i++) {
+                buttons[i].setBackgroundColor(Color.RED);
+                buttons[i].setTextColor(Color.RED);
+            }
+            startBtn = 1;
+        }
+
+        if (((Button) v).getText().equals(btnCount + 1 + "")) {
+            btnCount++;
+            score += stageCount * btnCount;
+
+            v.setBackground(getDrawable(R.drawable.custom_button));
+            setScore();
+        } else {
+            gameCount--;
+            countLeftText.setText(gameCount + "");
+            btnCount = 0;
+
+            setButtons();
+            isGameFinish();
+        }
+
+        if (btnCount == BTN_COUNT) {
+            stageCount++;
+            btnCount = 0;
+
+            setButtons();
+            setScore();
+            Toast.makeText(this, "완료! 다음 스테이지", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void setScore() {
@@ -73,12 +111,15 @@ public class GameActivity extends AppCompatActivity
     }
 
     private void setButtons() {
+        startBtn = 0;
+        btnGrid.removeAllViews();
 
         for(int i = 0; i < BTN_COUNT; i++) {
             int randNum = (int) (Math.random() * 9 + 1);
 
             buttons[i] = new Button(this);
             buttons[i].setText(randNum + "");
+            buttons[i].setBackground(getDrawable(R.drawable.custom_button));
 
             for(int j = 0; j < i; j++) {
                 if(buttons[i].getText().equals(buttons[j].getText()))
@@ -92,83 +133,22 @@ public class GameActivity extends AppCompatActivity
         }
     }
 
-    public void timeOver() {
+    private void timeOver() {
         gameCount--;
         countLeftText.setText(gameCount + "");
-        init();
         btnCount = 0;
 
-        end();
+        setButtons();
+        isGameFinish();
     }
 
-    public void end() {
+    private void isGameFinish() {
         if(gameCount == 0) {
             Intent rankIntent = new Intent(GameActivity.this, RankActivity.class);
             rankIntent.putExtra("score", score);
 
             startActivity(rankIntent);
             finish();
-            return;
-        }
-    }
-
-    private void init() {
-
-        for(int i = 0; i < BTN_COUNT; i++) {
-            int randNum = (int) (Math.random() * 9 + 1);
-
-            buttons[i].setText(randNum + "");
-
-            for(int j = 0; j < i; j++) {
-                if(buttons[i].getText().equals(buttons[j].getText()))
-                    i--;
-            }
-        }
-
-        for(int i = 0; i < BTN_COUNT; i++) {
-            buttons[i].setBackgroundColor(Color.GRAY);
-            buttons[i].setTextColor(Color.BLACK);
-        }
-    }
-
-    public void onClick(View v) {
-
-        trd.initialize();
-
-        if(gameCount == 0) {
-            Intent rankIntent = new Intent(GameActivity.this, RankActivity.class);
-
-            rankIntent.putExtra("score", score);
-
-            startActivity(rankIntent);
-            finish();
-            return;
-        }
-
-        for(int i = 0; i < BTN_COUNT; i++) {
-            buttons[i].setBackgroundColor(Color.RED);
-            buttons[i].setTextColor(Color.RED);
-        }
-
-        if (((Button) v).getText().equals(btnCount + 1 + "")) {
-
-            btnCount++;
-            score += stageCount * btnCount;
-            setScore();
-        } else {
-            init();
-            gameCount--;
-            countLeftText.setText(gameCount + "");
-            btnCount = 0;
-        }
-
-        if(btnCount == BTN_COUNT) {
-
-            Toast.makeText(this, "완료! 다음 스테이지", Toast.LENGTH_SHORT).show();
-            init();
-            stageCount++;
-            setScore();
-            btnCount = 0;
         }
     }
 }
