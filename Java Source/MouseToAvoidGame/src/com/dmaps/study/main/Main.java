@@ -1,7 +1,5 @@
 package com.dmaps.study.main;
 
-import javax.swing.JFrame;
-
 import com.dmaps.study.view.PhotoFrame;
 
 public class Main {

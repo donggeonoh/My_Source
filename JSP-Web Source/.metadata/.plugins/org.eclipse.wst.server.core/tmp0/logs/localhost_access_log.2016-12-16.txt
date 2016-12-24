@@ -1,0 +1,8 @@
+127.0.0.1 - - [16/Dec/2016:18:55:15 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Dec/2016:18:55:16 +0900] "GET /WebProgramming/ch10/MsgTagSimpleTest.jsp HTTP/1.1" 500 2957
+0:0:0:0:0:0:0:1 - - [16/Dec/2016:18:57:06 +0900] "GET /WebProgramming/ch10/MsgTagSimpleTest.jsp HTTP/1.1" 500 2957
+127.0.0.1 - - [16/Dec/2016:18:59:43 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Dec/2016:18:59:45 +0900] "GET /WebProgramming/ch10/MsgTagSimpleTest.jsp HTTP/1.1" 200 406
+0:0:0:0:0:0:0:1 - - [16/Dec/2016:19:00:06 +0900] "GET /WebProgramming/ch10/MsgTagSimpleTest.jsp HTTP/1.1" 200 406
+127.0.0.1 - - [16/Dec/2016:19:27:43 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Dec/2016:19:27:43 +0900] "GET /WebProgramming/ch10/ItemTagTest.jsp HTTP/1.1" 500 2903

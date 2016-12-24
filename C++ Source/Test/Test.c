@@ -1,3 +1,5 @@
+/*
+
 #include<stdio.h>
 #include<math.h>
 
@@ -37,4 +39,45 @@ int main()
 	}
 
 	printf("\n최소 거리는 %f 이고, 각 점은 (%d, %d), (%d, %d) 입니다\n\n", min, arr[minindex1].x, arr[minindex1].y, arr[minindex2].x, arr[minindex2].y);
+}
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int size, i, j;
+	int *arr;
+
+	printf("배열의 크기를 입력: ");
+	scanf("%d", &size);
+
+	arr = (int*)malloc(sizeof(int)*size);
+
+	for (i = 0; i < size; i++)
+	{
+		printf("정수 입력: ");
+		scanf("%d", &arr[i]);
+	}
+
+	printf("미중복 변수 : ");
+
+	for (i = 0; i < size; i++)
+	{
+		for (j = 0; j < size; j++)
+		{
+			if (i == j)
+				continue;
+
+			else if (arr[i] == arr[j])
+				break;
+		}
+
+		if (j == size)
+			printf("%d ", arr[i]);
+	}
+
+	free(arr);
 }

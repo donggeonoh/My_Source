@@ -10,7 +10,7 @@ var div = function () {
 function Div () {
     this.$ = $('<div></div>');
     this.displayInlineBlock();
-    // this.fontSize(0);
+    this.fontSize(0);
 }
 
 Div.prototype.css = function (key, value) {
@@ -48,11 +48,12 @@ Div.prototype.text = function (txt) {
         return this.$.text();
     }
 
-    // this.fontSize(14);
+    if (this.fontSize() === '0px') {
+        this.fontSize(14);
+    }
     this.$.text(txt);
     return this;
 };
-
 
 Div.prototype.bgColor = function (c) {
     this.$.css('background-color', c);
@@ -91,6 +92,13 @@ Div.prototype.marginUpDown=function(px) {
 };
 
 Div.prototype.size = function(w, h) {
+    if (w === undefined || h === undefined) {
+        return {
+            width: this.$.css('width'),
+            height: this.$.css('height')
+        };
+    }
+
     this.$.css('width', w);
     this.$.css('height', h);
     return this;
@@ -112,6 +120,55 @@ Div.prototype.height = function(w) {
     return this;
 };
 
+Div.prototype.cursor=function(c) {
+    if(arguments.length === 0) {
+        return this.$.css('cursor');
+    }
+
+    this.$.css('cursor',c);
+    return this;
+};
+/**
+ *
+ * @author eunchong
+ * @date 16.12.01
+ * @add hoverText,hoverFontSize
+ */
+Div.prototype.hoverText=function(txt1,txt2) {
+    if(txt1===undefined || txt2===undefined)
+        return this.$.text('empty');
+    this.hover(function(d) {
+        d.$.text(txt1);
+    },function(d) {
+        d.$.text(txt2);
+        return this;
+    });
+};
+
+Div.prototype.hoverFontSize=function(s1,s2) {
+    if(s1===undefined || s2===undefined) {
+        return this.$.text('empty');
+    }
+    this.hover(function(d) {
+        d.fontSize(s1);
+    },function(d) {
+        d.fontSize(s2);
+        return this;
+    })
+};
+
+Div.prototype.cursorDefalt = function() {
+    this.$.css('cursor', 'default');
+
+    return this;
+};
+
+Div.prototype.cursorPointer = function() {
+    this.$.css('cursor', 'pointer');
+
+    return this;
+};
+
 /**
  *
  * @author eunchong
@@ -125,6 +182,10 @@ Div.prototype.border = function (size) {
 };
 
 Div.prototype.fontSize = function (px) {
+    if (px === undefined) {
+        return this.$.css('font-size');
+    }
+
     this.$.css('font-size', px);
     return this;
 };
@@ -245,7 +306,6 @@ Div.prototype.position = function (position) {
     return this;
 };
 
-
 /**
  * @author Jisoo Yoon
  * @param top
@@ -345,17 +405,55 @@ Div.prototype.hover = function(fn1, fn2) {
     return this;
 };
 
-Div.prototype.editable = function() {
+Div.prototype.editable = function(f) {
+    if (f === false) {
+        this.$.attr('contenteditable', 'false');
+        return this;
+    }
+
     this.$.attr('contenteditable', 'true');
     return this;
 };
 
-Div.prototype.pointer = function () {
-    this.$.css('cursor', 'pointer');
+Div.prototype.selectable = function (f) {
+    if (f === false) {
+        this.$.css('user-select', 'none');
+        return this;
+    }
+
     return this;
 };
 
-Div.prototype.disDraggable = function () {
-    this.$.css('user-select', 'none');
+Div.prototype.hoverColor = function(c1, c2) {
+    if(c1 === undefined || c2 === undefined) {
+        this.hover();
+        return this;
+    }
+
+    /*
+    this.hover(function () {
+        this.bgColor(c1);
+    }, function () {
+        this.bgColor(c2);
+    });
+    */
+
+    var that = this;
+    this.$.hover(function () {
+        that.$.css('background-color', c1);
+    }, function () {
+        that.$.css('background-color', c2);
+    });
+
     return this;
+};
+
+Div.prototype.hoverTextColor = function(t1, t2) {
+
+    var that = this;
+    this.$.hover(function () {
+        that.$.css('color', t1);
+    }, function () {
+        that.$.css('color', t2);
+    });
 };

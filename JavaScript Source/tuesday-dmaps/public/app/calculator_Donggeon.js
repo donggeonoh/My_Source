@@ -128,17 +128,17 @@ var dotDivClick = function (dv, e) {
 };
 
 // 전체적인 계산기의 사이즈 설정
-outsideDiv.append().size('70%', '80%').position('absolute').top('10%').left('15%').disDraggable();
+outsideDiv.append().size('45%', '60%').position('absolute').top('10%').left('25%').selectable(false);
 
-textDiv.appendTo(outsideDiv).height('20%').displayBlock().textAlign('right').displayBlock();
+textDiv.appendTo(outsideDiv).height('20%').textAlign('right').displayBlock();
 
-subTextDiv.appendTo(textDiv).paddingTop('1%').paddingRight('3%').height('33%').bgColor('#8f94ab').fontSize('1.5em').displayBlock();
-mainTextDiv.appendTo(textDiv).paddingTop('2%').paddingRight('3%').height('66%').bgColor('#a0a7c3').fontSize('2.5em').displayBlock();
+subTextDiv.appendTo(textDiv).paddingTop('1%').paddingRight('3%').height('33%').bgColor('#8f94ab').fontSize("2em").displayBlock();
+mainTextDiv.appendTo(textDiv).paddingTop('2%').paddingRight('3%').height('67%').bgColor('#a0a7c3').fontSize("3em").displayBlock();
 
-operateDiv.appendTo(outsideDiv).height('80%').fontSize('3em').textAlignCenter().displayBlock().pointer();
+operateDiv.appendTo(outsideDiv).height('80%').textAlignCenter().displayBlock().cursorPointer();
 
 for(var i = 0; i < 22; i++) {
-    oper[i].appendTo(operateDiv).displayInlineBlock().bgColor('#d0d8ed').size('25%', '16.6%').hover(touchDiv, leaveDiv);
+    oper[i].appendTo(operateDiv).displayInlineBlock().bgColor('#d0d8ed').size('25%', '12.5%').paddingTop("5%").hover(touchDiv, leaveDiv).fontSize("20px");
 
     if(operateText[i] === 0) oper[i].size('50%', '16.6%').text(operateText[i]).click(operandDivClick);
 

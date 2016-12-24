@@ -19,7 +19,7 @@ import com.dmaps.study.listener.MouseManagementListener;
 
 public class PhotoFrame extends JFrame{
 	
-	private int index = 1;
+	private int index = 0;
 	
 	private BufferedImage img;
 	private ImageIcon image;
@@ -37,7 +37,7 @@ public class PhotoFrame extends JFrame{
 		if(index == 4)
 			return;
 		
-		image = new ImageIcon("C:\\Users\\오동건\\Desktop\\" + index + ".png");
+		image = new ImageIcon("C:\\Users\\DOGN\\Desktop\\" + index + ".png");
 		
 		panel = new JPanel() {
 			
@@ -53,7 +53,7 @@ public class PhotoFrame extends JFrame{
 		};
 		
 		try {
-			img = ImageIO.read(new File("C:\\Users\\오동건\\Desktop\\" + index + ".png"));
+			img = ImageIO.read(new File("C:\\Users\\DOGN\\Desktop\\" + index + ".png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

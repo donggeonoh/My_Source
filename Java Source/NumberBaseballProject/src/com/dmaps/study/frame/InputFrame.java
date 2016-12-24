@@ -29,7 +29,7 @@ public class InputFrame extends JFrame {
 	private JButton submitButton;
 	private JButton startButton;
 	private JButton resetButton;
-
+	
 	PrintFrame printFrame;
 	
 	public InputFrame(PrintFrame printFrame) {
@@ -92,7 +92,7 @@ public class InputFrame extends JFrame {
 		this.setVisible(true);
 	}
 	
-	public void disableButton() {
+	public void disableButton() {	// 버튼을 누르면 누르지 못하게 하는 메서드
 		for (int i = 0; i < BUTTON_LENGTH; i++)
 			buttons[i].setEnabled(false);
 		
@@ -100,7 +100,7 @@ public class InputFrame extends JFrame {
 		submitButton.setEnabled(false);
 	}
 	
-	public void Reset() {
+	public void Reset() {	// 버튼 리셋
 		for(int i = 0; i < BUTTON_LENGTH; i++) {
 			buttons[i].setEnabled(true);
 		}
@@ -113,7 +113,7 @@ public class InputFrame extends JFrame {
 		}
 	}
 
-	private void setActionListener() {
+	private void setActionListener() {	// 각 number, start, submit, reset 리스너 메서드
 		for (int i = 0; i < BUTTON_LENGTH; i++)
 			buttons[i].addActionListener(new RepetitionRemovalListener(buttons, pickNumbers));
 		
@@ -121,5 +121,4 @@ public class InputFrame extends JFrame {
 		resetButton.addActionListener(new ResetButtonListener(this));
 		submitButton.addActionListener(new SubmitButtonListener(this, printFrame, pickNumbers));
 	}
-
 }

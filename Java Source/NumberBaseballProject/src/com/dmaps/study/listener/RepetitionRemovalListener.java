@@ -22,7 +22,6 @@ public class RepetitionRemovalListener implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		for (int i = 0; i < InputFrame.BUTTON_LENGTH; i++) {
 			if(e.getSource().equals(buttons[i])) {
-				
 				for(int j = 0; j < InputFrame.PICKNUMBER_LENGTH; j++) {
 					if(printNumbers[j].getText().isEmpty()) {
 								printNumbers[j].setText((buttons[i].getText()));

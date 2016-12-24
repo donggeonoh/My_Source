@@ -1,7 +1,0 @@
-package odg.ch07;
-
-import java.util.ArrayList;
-
-public class AddrManager {
-	List<AddrBean> addrList = new ArrayList<AddrBean>();
-}
