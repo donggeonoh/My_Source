@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_f2c71668f4fd8fa605fd4cfe5eef9bc8c0c5efaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_4906bd87e88eb2d59b769a43cd0fcdb26c698545\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_9010aa92b9cd2d1fc4329ed2d6bd66f3087834a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="89f03488a837ca7d818afff5cf4f8bd2e2d790cb">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_08920511b8ec94e251cb183cb63fbcfc28d5d736\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="569ddc080107af289af45c3d9344db5893607fdf">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ff1798c8a14e329e313c82999877b27804e674bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d1cae02e281036d7f78585e8ae8041036228a93b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5ba0f6593b564e4dc915716a88c4e2be667ef1f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_8683048a3cf395f0ba4d1c95a57518747970f54a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_b2e0fbeeaa4036ee0b27e0304cf300fde4e94808\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_98557ead42e224ef8fcb11329131059fabc72f55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_da602f4aaaa64858567dc67c2014e2ee7720ae3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e806c555742c22a8aa44a75f898887c96dffd235\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_db76ce1b187d34fe72a1012febfb7d3438629b79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d0c9b447968e5557476a98446c8d4caa940ad55d">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8240a0cf39e6d87241a10e93bdd02ab45818f976\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_29b7c454b0ce3a4e7d5353ae0740cd45ad80658e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b9d76b539a93d5487efd03515d29f0bdf0fcce89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_60e9fc5a3c5426529b6800e7635659a0108ee9e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea0430f21adbea95f8c9ad504f7ad4654677d3ec">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4250ef30d6c1fa45a6c157c425bf8697ea407ef9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_23e73f840ce3ad04c0ca5fe8fc1cee882e7bb3c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_630fd58d0ed0fcd343c3ec5a62951d6a646021b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_872c6dce4f3e89759a98e3b603b5b70d739562dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_517b8a9c59dda3f0bd8db1f933d863f235ae41eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_375de997c28115da6dd57d367dc73fbbd470133e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6e81f0b29e41298620fd1ddae172cb02bc8d65db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_17b6378b1917beeca4724dfd0bd1439435c366af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_d546da908eef6dde745226b3e44ee12b348d0fed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_13bac1860737137b024974006b30aa9022d4408c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_ae48cfdcc2daeaa2cff416ee8e468604645182d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6059a579bc9003e53b33cca3235128d2516b1db7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_73bf8ea340435f8529b5d27c9f4b65b86864f9a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1e5dfb20cdc95f2ccc7630b4b9630481d833213f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\thread_hw\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_87d35f991efee8854cf921ee02243a22224ffb41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\DOGN\My Source Files\Android Source\AndroidStudy\mygame\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_9e2e564b68084f7d861528e9bd9a7e89d7e3755f\classes.dex" />
+    </item>
+
+</items>
